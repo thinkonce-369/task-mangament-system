@@ -1,0 +1,28 @@
+
+
+/* Styles for desktop screens */
+@media (min-width: 768px) {
+    .table-container {
+      overflow-x: auto;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  
+    .chart-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Styles for mobile screens */
+  @media (max-width: 767px) {
+    .table-container {
+      overflow-x: auto;
+    }
+  
+    .chart-container {
+      max-width: 100%;
+      overflow-x: auto;
+    }
+  }
+  
